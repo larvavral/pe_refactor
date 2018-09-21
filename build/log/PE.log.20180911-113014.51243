@@ -1,0 +1,10 @@
+Log file created at: 2018/09/11 11:30:14
+Running on machine: Hoangs-MBP.miyatsu.vn
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0911 11:30:14.542585 2889032576 main.cc:33] Read all settings from configuration file.
+I0911 11:30:14.545673 2889032576 main.cc:39] Redis server information: 
+ - Host: 127.0.0.1
+ - Port: 6379
+I0911 11:30:14.546705 2889032576 main.cc:56] Group 1:
+E0911 11:30:14.547386 2889032576 redis_controller.cc:12] Cannot create redis client.
+F0911 11:30:14.547933 2889032576 group.cc:46] Cannot establish connection to redis! Exit.

@@ -1,0 +1,7 @@
+Log file created at: 2018/09/10 16:32:23
+Running on machine: Hoangs-MBP.miyatsu.vn
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0910 16:32:23.776250 2889032576 main.cc:23] Read all settings from configuration file.
+I0910 16:32:23.777433 2889032576 main.cc:30] Redis server information: 
+ - Host: 
+ - Port: 0

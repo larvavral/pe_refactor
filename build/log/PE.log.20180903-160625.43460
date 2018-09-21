@@ -1,0 +1,21 @@
+Log file created at: 2018/09/03 16:06:25
+Running on machine: Hoangs-MBP.miyatsu.vn
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0903 16:06:25.727936 2889032576 main.cc:40] Read all settings from configuration file.
+I0903 16:06:25.729298 2889032576 main.cc:45] Redis server information: 
+ - Host: 172.16.20.167
+ - Port: 6379
+I0903 16:06:25.729410 2889032576 main.cc:61] Group 1:
+I0903 16:06:25.742327 2889032576 redis_controller.cc:16] Create new redis client successfully.
+I0903 16:06:25.744747 2889032576 redis_controller.cc:28] Authenticate successfully.
+I0903 16:06:25.744861 2889032576 redis_controller.cc:89] Create async connection to redis server successfully.
+I0903 16:06:25.747442 2889032576 group.cc:52] larva 0
+I0903 16:06:25.747472 2889032576 group.cc:57] larva 1
+I0903 16:06:25.750267 2889032576 group.cc:52] larva 0
+I0903 16:06:25.750298 2889032576 group.cc:57] larva 1
+I0903 16:06:25.752749 2889032576 group.cc:52] larva 0
+I0903 16:06:25.752768 2889032576 group.cc:57] larva 1
+I0903 16:06:25.755673 2889032576 group.cc:52] larva 0
+I0903 16:06:25.755702 2889032576 group.cc:57] larva 1
+I0903 16:06:25.758574 2889032576 group.cc:52] larva 0
+I0903 16:06:25.758620 2889032576 group.cc:57] larva 1

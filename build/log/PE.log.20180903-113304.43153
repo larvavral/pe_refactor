@@ -1,0 +1,25 @@
+Log file created at: 2018/09/03 11:33:04
+Running on machine: Hoangs-MBP.miyatsu.vn
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0903 11:33:04.374591 2889032576 main.cc:40] Read all settings from configuration file.
+I0903 11:33:04.376029 2889032576 main.cc:45] Redis server information: 
+ - Host: 127.0.0.1
+ - Port: 6379
+I0903 11:33:04.376142 2889032576 main.cc:61] Group 1:
+I0903 11:33:04.376757 2889032576 redis_controller.cc:16] Create new redis client successfully.
+I0903 11:33:04.376904 2889032576 redis_controller.cc:28] Authenticate successfully.
+I0903 11:33:04.376968 2889032576 redis_controller.cc:86] Create async connection to redis server successfully.
+E0903 11:33:04.377131 2889032576 redis_controller.cc:42] Cannot get value of key = config_pe_ethbtc
+E0903 11:33:04.377764 2889032576 group.cc:47] Cannot get PE config for symbol ethbtc
+E0903 11:33:04.377887 2889032576 redis_controller.cc:42] Cannot get value of key = config_pe_bccbtc
+E0903 11:33:04.377933 2889032576 group.cc:47] Cannot get PE config for symbol bccbtc
+E0903 11:33:04.378027 2889032576 redis_controller.cc:42] Cannot get value of key = config_pe_ltcbtc
+E0903 11:33:04.378062 2889032576 group.cc:47] Cannot get PE config for symbol ltcbtc
+E0903 11:33:04.384452 2889032576 redis_controller.cc:42] Cannot get value of key = config_pe_xrpbtc
+E0903 11:33:04.384529 2889032576 group.cc:47] Cannot get PE config for symbol xrpbtc
+E0903 11:33:04.384717 2889032576 redis_controller.cc:42] Cannot get value of key = config_pe_bbbbtc
+E0903 11:33:04.384794 2889032576 group.cc:47] Cannot get PE config for symbol bbbbtc
+I0903 11:33:04.385202 110145536 group.cc:67] Async connection authenticated successfully.
+I0903 11:33:04.385253 110145536 group.cc:71] OnPEConfigUpdated 0x7fb5214037d0 2 3
+I0903 11:33:10.058833 110145536 group.cc:71] OnPEConfigUpdated 0x7fb5216001b0 2 3
+I0903 11:33:10.058881 110145536 group.cc:101] passed

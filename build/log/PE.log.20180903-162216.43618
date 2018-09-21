@@ -1,0 +1,9 @@
+Log file created at: 2018/09/03 16:22:16
+Running on machine: Hoangs-MBP.miyatsu.vn
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0903 16:22:16.152417 2889032576 main.cc:40] Read all settings from configuration file.
+I0903 16:22:16.154670 2889032576 main.cc:62] Group 1:
+I0903 16:22:16.155136 2889032576 redis_controller.cc:16] Create new redis client successfully.
+I0903 16:22:16.155256 2889032576 redis_controller.cc:28] Authenticate successfully.
+I0903 16:22:16.155309 2889032576 redis_controller.cc:86] Create async connection to redis server successfully.
+E0903 16:24:02.103168 2889032576 redis_controller.cc:42] Cannot get value of key = config_pe_ethbtc

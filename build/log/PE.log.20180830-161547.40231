@@ -1,0 +1,4 @@
+Log file created at: 2018/08/30 16:15:47
+Running on machine: Hoangs-MBP.miyatsu.vn
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0830 16:15:47.225168 2889032576 main.cc:40] Read all settings from configuration file.

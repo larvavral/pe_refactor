@@ -1,0 +1,303 @@
+Log file created at: 2018/09/04 17:34:55
+Running on machine: Hoangs-MBP.miyatsu.vn
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0904 17:34:55.416024 2889032576 main.cc:18] Read all settings from configuration file.
+I0904 17:34:55.417467 2889032576 main.cc:23] Redis server information: 
+ - Host: 172.16.20.167
+ - Port: 6379
+I0904 17:34:55.417577 2889032576 main.cc:40] Group 1:
+I0904 17:34:55.426746 2889032576 redis_controller.cc:16] Create new redis client successfully.
+I0904 17:34:55.429579 2889032576 redis_controller.cc:28] Authenticate successfully.
+I0904 17:34:55.429781 2889032576 redis_controller.cc:94] Create async connection to redis server successfully.
+I0904 17:34:55.432849 2889032576 main.cc:40] Group 2:
+I0904 17:34:55.435263 2889032576 redis_controller.cc:16] Create new redis client successfully.
+I0904 17:34:55.437914 2889032576 redis_controller.cc:28] Authenticate successfully.
+I0904 17:34:55.438025 2889032576 redis_controller.cc:94] Create async connection to redis server successfully.
+E0904 17:34:55.441390 2889032576 group.cc:149] Error while reading PE config from redis: 
+message = {"FVType":0,"PEinput":{"active":0,"percent":100,"type_active":1,"value":0},"PElotlimit":50,"PEmvlen":200,"PEpercentage":{"bitfinex":16,"bithumb":16,"bittrex":16,"coinone":16,"kraken":16,"quoine":20},"PEtype":{"bitfinex":3,"bithumb":3,"bittrex":3,"coinone":3,"kraken":3,"quoine":3},"filter_ratio":30}
+E0904 17:34:55.442137 2889032576 group.cc:48] Cannot get PE config for symbol bccbtc
+E0904 17:34:55.444418 2889032576 group.cc:149] Error while reading PE config from redis: 
+message = {"FVType":0,"PEinput":{"active":0,"percent":100,"type_active":1,"value":0},"PElotlimit":50,"PEmvlen":200,"PEpercentage":{"bitfinex":16,"bithumb":16,"bitstamp":20,"bittrex":16,"coinone":16,"kraken":16},"PEtype":{"bitfinex":3,"bithumb":3,"bitstamp":3,"bittrex":3,"coinone":3,"kraken":3},"filter_ratio":30}
+E0904 17:34:55.447232 2889032576 group.cc:48] Cannot get PE config for symbol ltcbtc
+E0904 17:34:55.449775 2889032576 group.cc:149] Error while reading PE config from redis: 
+message = {"FVType":0,"PEinput":{"active":0,"percent":100,"type_active":1,"value":0},"PElotlimit":1000,"PEmvlen":200,"PEpercentage":{"bitfinex":16,"bithumb":16,"bitstamp":20,"bittrex":16,"coinone":16,"kraken":16},"PEtype":{"bitfinex":3,"bithumb":3,"bitstamp":3,"bittrex":3,"coinone":3,"kraken":3},"filter_ratio":30}
+E0904 17:34:55.449920 2889032576 group.cc:48] Cannot get PE config for symbol xrpbtc
+E0904 17:34:55.452395 2889032576 group.cc:149] Error while reading PE config from redis: 
+message = {"FVType":0,"PEinput":{"active":0,"percent":100,"type_active":1,"value":0},"PElotlimit":1000,"PEmvlen":200,"PEpercentage":{"bitfinex":16,"bithumb":16,"bitstamp":20,"bittrex":16,"coinone":16,"kraken":16},"PEtype":{"bitfinex":3,"bithumb":3,"bitstamp":3,"bittrex":3,"coinone":3,"kraken":3},"filter_ratio":30}
+E0904 17:34:55.452502 2889032576 group.cc:48] Cannot get PE config for symbol bbbbtc
+I0904 17:34:55.454932 176881664 group.cc:75] OnAsyncConnectAuthenticated()
+I0904 17:34:55.454975 176881664 group.cc:80] Async connection authenticated successfully.
+I0904 17:34:55.455000 176881664 group.cc:84] OnPEConfigUpdated()
+I0904 17:34:55.455029 176881664 group.cc:75] OnAsyncConnectAuthenticated()
+I0904 17:34:55.455036 176881664 group.cc:80] Async connection authenticated successfully.
+I0904 17:34:55.455044 176881664 group.cc:84] OnPEConfigUpdated()
+I0904 17:34:55.458101 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393144, moving_average = 0.0393144, std_dev = 0, std_dev_ratio = 0
+I0904 17:34:55.579835 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393148, moving_average = 0.0393146, std_dev = 1.15867e-07, std_dev_ratio = 0
+I0904 17:34:55.694614 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393149, moving_average = 0.0393147, std_dev = 1.56911e-07, std_dev_ratio = 0
+I0904 17:34:55.807628 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393151, moving_average = 0.0393148, std_dev = 1.8284e-07, std_dev_ratio = 0
+I0904 17:34:55.917821 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393152, moving_average = 0.0393149, std_dev = 2.02968e-07, std_dev_ratio = 0
+I0904 17:34:56.029462 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393154, moving_average = 0.039315, std_dev = 2.2011e-07, std_dev_ratio = 0
+I0904 17:34:56.142289 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393155, moving_average = 0.0393151, std_dev = 2.34977e-07, std_dev_ratio = 0
+I0904 17:34:56.254091 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393157, moving_average = 0.0393151, std_dev = 2.4872e-07, std_dev_ratio = 0
+I0904 17:34:56.362620 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393159, moving_average = 0.0393152, std_dev = 2.61596e-07, std_dev_ratio = 0
+I0904 17:34:56.473521 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393162, moving_average = 0.0393153, std_dev = 2.7906e-07, std_dev_ratio = 0
+I0904 17:34:56.586494 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393164, moving_average = 0.0393154, std_dev = 2.94533e-07, std_dev_ratio = 0
+I0904 17:34:56.696465 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393165, moving_average = 0.0393155, std_dev = 3.0833e-07, std_dev_ratio = 0
+I0904 17:34:56.806198 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393167, moving_average = 0.0393156, std_dev = 3.20864e-07, std_dev_ratio = 0
+I0904 17:34:56.916221 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393168, moving_average = 0.0393157, std_dev = 3.32472e-07, std_dev_ratio = 0
+I0904 17:34:57.027269 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039317, moving_average = 0.0393158, std_dev = 3.4334e-07, std_dev_ratio = 0
+I0904 17:34:57.139312 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393171, moving_average = 0.0393158, std_dev = 3.53473e-07, std_dev_ratio = 0
+I0904 17:34:57.250496 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393173, moving_average = 0.0393159, std_dev = 3.63124e-07, std_dev_ratio = 0
+I0904 17:34:57.360826 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393174, moving_average = 0.039316, std_dev = 3.72361e-07, std_dev_ratio = 0
+I0904 17:34:57.473728 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393177, moving_average = 0.0393161, std_dev = 3.83196e-07, std_dev_ratio = 0
+I0904 17:34:57.586341 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393179, moving_average = 0.0393162, std_dev = 3.93432e-07, std_dev_ratio = 0
+I0904 17:34:57.696660 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039318, moving_average = 0.0393163, std_dev = 4.03154e-07, std_dev_ratio = 0
+I0904 17:34:57.809140 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393182, moving_average = 0.0393164, std_dev = 4.12433e-07, std_dev_ratio = 0
+I0904 17:34:57.921308 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393183, moving_average = 0.0393165, std_dev = 4.21307e-07, std_dev_ratio = 0
+I0904 17:34:58.033629 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393185, moving_average = 0.0393165, std_dev = 4.29759e-07, std_dev_ratio = 0
+I0904 17:34:58.144372 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393186, moving_average = 0.0393166, std_dev = 4.37906e-07, std_dev_ratio = 0
+I0904 17:34:58.256379 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393188, moving_average = 0.0393167, std_dev = 4.45782e-07, std_dev_ratio = 0
+I0904 17:34:58.368690 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393189, moving_average = 0.0393168, std_dev = 4.53415e-07, std_dev_ratio = 0
+I0904 17:34:58.477999 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393193, moving_average = 0.0393169, std_dev = 4.61908e-07, std_dev_ratio = 0
+I0904 17:34:58.589411 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393194, moving_average = 0.039317, std_dev = 4.70092e-07, std_dev_ratio = 0
+I0904 17:34:58.699563 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393196, moving_average = 0.0393171, std_dev = 4.77997e-07, std_dev_ratio = 0
+I0904 17:34:58.809986 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393197, moving_average = 0.0393171, std_dev = 4.8565e-07, std_dev_ratio = 0
+I0904 17:34:58.923310 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393199, moving_average = 0.0393172, std_dev = 4.93054e-07, std_dev_ratio = 0
+I0904 17:34:59.035761 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.03932, moving_average = 0.0393173, std_dev = 5.00179e-07, std_dev_ratio = 0
+I0904 17:34:59.147358 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393201, moving_average = 0.0393174, std_dev = 5.07116e-07, std_dev_ratio = 0
+I0904 17:34:59.256430 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393203, moving_average = 0.0393175, std_dev = 5.13877e-07, std_dev_ratio = 0
+I0904 17:34:59.365200 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393205, moving_average = 0.0393176, std_dev = 5.20479e-07, std_dev_ratio = 0
+I0904 17:34:59.478744 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393208, moving_average = 0.0393176, std_dev = 5.27655e-07, std_dev_ratio = 0
+I0904 17:34:59.592262 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393209, moving_average = 0.0393177, std_dev = 5.34636e-07, std_dev_ratio = 0
+I0904 17:34:59.705293 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393211, moving_average = 0.0393178, std_dev = 5.41543e-07, std_dev_ratio = 0
+I0904 17:34:59.815387 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393213, moving_average = 0.0393179, std_dev = 5.48377e-07, std_dev_ratio = 0
+I0904 17:34:59.923668 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393214, moving_average = 0.039318, std_dev = 5.55139e-07, std_dev_ratio = 0
+I0904 17:35:00.036607 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393216, moving_average = 0.0393181, std_dev = 5.61745e-07, std_dev_ratio = 0
+I0904 17:35:00.149435 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393218, moving_average = 0.0393182, std_dev = 5.68247e-07, std_dev_ratio = 0
+I0904 17:35:00.258484 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393219, moving_average = 0.0393182, std_dev = 5.7465e-07, std_dev_ratio = 0
+I0904 17:35:00.374496 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393221, moving_average = 0.0393183, std_dev = 5.8096e-07, std_dev_ratio = 0
+I0904 17:35:00.482718 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393224, moving_average = 0.0393184, std_dev = 5.87746e-07, std_dev_ratio = 0
+I0904 17:35:00.595615 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393226, moving_average = 0.0393185, std_dev = 5.94412e-07, std_dev_ratio = 0
+I0904 17:35:00.703639 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393228, moving_average = 0.0393186, std_dev = 6.00963e-07, std_dev_ratio = 0
+I0904 17:35:00.817662 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393229, moving_average = 0.0393187, std_dev = 6.07407e-07, std_dev_ratio = 0
+I0904 17:35:00.927940 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393231, moving_average = 0.0393188, std_dev = 6.13748e-07, std_dev_ratio = 0
+I0904 17:35:01.036310 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393232, moving_average = 0.0393189, std_dev = 6.19959e-07, std_dev_ratio = 0
+I0904 17:35:01.149045 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393234, moving_average = 0.0393189, std_dev = 6.2608e-07, std_dev_ratio = 0
+I0904 17:35:01.258455 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393236, moving_average = 0.039319, std_dev = 6.32114e-07, std_dev_ratio = 0
+I0904 17:35:01.366559 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393237, moving_average = 0.0393191, std_dev = 6.38066e-07, std_dev_ratio = 0
+I0904 17:35:01.479466 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393241, moving_average = 0.0393192, std_dev = 6.44371e-07, std_dev_ratio = 0
+I0904 17:35:01.592775 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393242, moving_average = 0.0393193, std_dev = 6.50578e-07, std_dev_ratio = 0
+I0904 17:35:01.706271 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393244, moving_average = 0.0393194, std_dev = 6.56691e-07, std_dev_ratio = 0
+I0904 17:35:01.818145 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393246, moving_average = 0.0393195, std_dev = 6.62715e-07, std_dev_ratio = 0
+I0904 17:35:01.930420 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393247, moving_average = 0.0393196, std_dev = 6.68654e-07, std_dev_ratio = 0
+I0904 17:35:02.043195 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393249, moving_average = 0.0393197, std_dev = 6.74486e-07, std_dev_ratio = 0
+I0904 17:35:02.152578 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039325, moving_average = 0.0393197, std_dev = 6.80244e-07, std_dev_ratio = 0
+I0904 17:35:02.262002 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393252, moving_average = 0.0393198, std_dev = 6.85929e-07, std_dev_ratio = 0
+I0904 17:35:02.374624 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393254, moving_average = 0.0393199, std_dev = 6.91544e-07, std_dev_ratio = 0
+I0904 17:35:02.487810 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393257, moving_average = 0.03932, std_dev = 6.97394e-07, std_dev_ratio = 0
+I0904 17:35:02.598590 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393258, moving_average = 0.0393201, std_dev = 7.03144e-07, std_dev_ratio = 0
+I0904 17:35:02.716465 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039326, moving_average = 0.0393202, std_dev = 7.08799e-07, std_dev_ratio = 0
+I0904 17:35:02.826205 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393262, moving_average = 0.0393203, std_dev = 7.14364e-07, std_dev_ratio = 0
+I0904 17:35:02.934888 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393263, moving_average = 0.0393204, std_dev = 7.19841e-07, std_dev_ratio = 0
+I0904 17:35:03.045302 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393264, moving_average = 0.0393205, std_dev = 7.25214e-07, std_dev_ratio = 0
+I0904 17:35:03.153998 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393266, moving_average = 0.0393205, std_dev = 7.30509e-07, std_dev_ratio = 0
+I0904 17:35:03.263550 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393268, moving_average = 0.0393206, std_dev = 7.35729e-07, std_dev_ratio = 0
+I0904 17:35:03.374076 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393269, moving_average = 0.0393207, std_dev = 7.40877e-07, std_dev_ratio = 0
+I0904 17:35:03.484169 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393272, moving_average = 0.0393208, std_dev = 7.46221e-07, std_dev_ratio = 0
+I0904 17:35:03.593219 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393274, moving_average = 0.0393209, std_dev = 7.51488e-07, std_dev_ratio = 0
+I0904 17:35:03.702217 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393275, moving_average = 0.039321, std_dev = 7.56682e-07, std_dev_ratio = 0
+I0904 17:35:03.817474 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393277, moving_average = 0.0393211, std_dev = 7.61763e-07, std_dev_ratio = 0
+I0904 17:35:03.931629 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393278, moving_average = 0.0393212, std_dev = 7.66737e-07, std_dev_ratio = 0
+I0904 17:35:04.043495 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393279, moving_average = 0.0393212, std_dev = 7.71596e-07, std_dev_ratio = 0
+I0904 17:35:04.152074 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039328, moving_average = 0.0393213, std_dev = 7.76362e-07, std_dev_ratio = 0
+I0904 17:35:04.263926 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393282, moving_average = 0.0393214, std_dev = 7.8104e-07, std_dev_ratio = 0
+I0904 17:35:04.377209 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393283, moving_average = 0.0393215, std_dev = 7.85633e-07, std_dev_ratio = 0
+I0904 17:35:04.485957 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393286, moving_average = 0.0393216, std_dev = 7.90336e-07, std_dev_ratio = 0
+I0904 17:35:04.598994 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393287, moving_average = 0.0393217, std_dev = 7.94954e-07, std_dev_ratio = 0
+I0904 17:35:04.712375 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393288, moving_average = 0.0393218, std_dev = 7.99491e-07, std_dev_ratio = 0
+I0904 17:35:04.825862 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393289, moving_average = 0.0393218, std_dev = 8.03897e-07, std_dev_ratio = 0
+I0904 17:35:04.937196 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039329, moving_average = 0.0393219, std_dev = 8.08178e-07, std_dev_ratio = 0
+I0904 17:35:05.049911 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393291, moving_average = 0.039322, std_dev = 8.12321e-07, std_dev_ratio = 0
+I0904 17:35:05.162931 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393292, moving_average = 0.0393221, std_dev = 8.16346e-07, std_dev_ratio = 0
+I0904 17:35:05.278913 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393292, moving_average = 0.0393222, std_dev = 8.20258e-07, std_dev_ratio = 0
+I0904 17:35:05.390229 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393294, moving_average = 0.0393223, std_dev = 8.24177e-07, std_dev_ratio = 0
+I0904 17:35:05.501657 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393295, moving_average = 0.0393223, std_dev = 8.27989e-07, std_dev_ratio = 0
+I0904 17:35:05.614351 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393296, moving_average = 0.0393224, std_dev = 8.31699e-07, std_dev_ratio = 0
+I0904 17:35:05.726413 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393297, moving_average = 0.0393225, std_dev = 8.35311e-07, std_dev_ratio = 0
+I0904 17:35:05.839501 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393298, moving_average = 0.0393226, std_dev = 8.38852e-07, std_dev_ratio = 0
+I0904 17:35:05.950413 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393299, moving_average = 0.0393226, std_dev = 8.42312e-07, std_dev_ratio = 0
+I0904 17:35:06.060595 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.03933, moving_average = 0.0393227, std_dev = 8.45706e-07, std_dev_ratio = 0
+I0904 17:35:06.169299 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393301, moving_average = 0.0393228, std_dev = 8.49038e-07, std_dev_ratio = 0
+I0904 17:35:06.278971 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393302, moving_average = 0.0393229, std_dev = 8.52311e-07, std_dev_ratio = 0
+I0904 17:35:06.393395 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393304, moving_average = 0.0393229, std_dev = 8.55645e-07, std_dev_ratio = 0
+I0904 17:35:06.506523 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393305, moving_average = 0.039323, std_dev = 8.58921e-07, std_dev_ratio = 0
+I0904 17:35:06.619410 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393306, moving_average = 0.0393231, std_dev = 8.6214e-07, std_dev_ratio = 0
+I0904 17:35:06.732173 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393307, moving_average = 0.0393232, std_dev = 8.65304e-07, std_dev_ratio = 0
+I0904 17:35:06.842669 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393308, moving_average = 0.0393232, std_dev = 8.6838e-07, std_dev_ratio = 0
+I0904 17:35:06.952512 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393308, moving_average = 0.0393233, std_dev = 8.71359e-07, std_dev_ratio = 0
+I0904 17:35:07.063388 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393309, moving_average = 0.0393234, std_dev = 8.74255e-07, std_dev_ratio = 0
+I0904 17:35:07.173810 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039331, moving_average = 0.0393235, std_dev = 8.77073e-07, std_dev_ratio = 0
+I0904 17:35:07.286962 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393311, moving_average = 0.0393235, std_dev = 8.79887e-07, std_dev_ratio = 0
+I0904 17:35:07.400704 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393312, moving_average = 0.0393236, std_dev = 8.82626e-07, std_dev_ratio = 0
+I0904 17:35:07.512570 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393313, moving_average = 0.0393237, std_dev = 8.85292e-07, std_dev_ratio = 0
+I0904 17:35:07.621337 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393313, moving_average = 0.0393237, std_dev = 8.8789e-07, std_dev_ratio = 0
+I0904 17:35:07.734711 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393314, moving_average = 0.0393238, std_dev = 8.9042e-07, std_dev_ratio = 0
+I0904 17:35:07.847635 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393314, moving_average = 0.0393239, std_dev = 8.92877e-07, std_dev_ratio = 0
+I0904 17:35:07.960404 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393315, moving_average = 0.0393239, std_dev = 8.95251e-07, std_dev_ratio = 0
+I0904 17:35:08.069800 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393315, moving_average = 0.039324, std_dev = 8.97557e-07, std_dev_ratio = 0
+I0904 17:35:08.178468 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393316, moving_average = 0.0393241, std_dev = 8.99797e-07, std_dev_ratio = 0
+I0904 17:35:08.288336 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393317, moving_average = 0.0393241, std_dev = 9.02028e-07, std_dev_ratio = 0
+I0904 17:35:08.401260 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393318, moving_average = 0.0393242, std_dev = 9.04195e-07, std_dev_ratio = 0
+I0904 17:35:08.513476 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393318, moving_average = 0.0393243, std_dev = 9.06311e-07, std_dev_ratio = 0
+I0904 17:35:08.624447 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393319, moving_average = 0.0393243, std_dev = 9.08378e-07, std_dev_ratio = 0
+I0904 17:35:08.736423 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039332, moving_average = 0.0393244, std_dev = 9.10398e-07, std_dev_ratio = 0
+I0904 17:35:08.848553 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039332, moving_average = 0.0393245, std_dev = 9.12366e-07, std_dev_ratio = 0
+I0904 17:35:08.960152 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393321, moving_average = 0.0393245, std_dev = 9.14284e-07, std_dev_ratio = 0
+I0904 17:35:09.072335 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393322, moving_average = 0.0393246, std_dev = 9.16154e-07, std_dev_ratio = 0
+I0904 17:35:09.184060 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393322, moving_average = 0.0393247, std_dev = 9.17978e-07, std_dev_ratio = 0
+I0904 17:35:09.296450 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393323, moving_average = 0.0393247, std_dev = 9.19801e-07, std_dev_ratio = 0
+I0904 17:35:09.407547 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393324, moving_average = 0.0393248, std_dev = 9.21579e-07, std_dev_ratio = 0
+I0904 17:35:09.519711 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393325, moving_average = 0.0393248, std_dev = 9.23315e-07, std_dev_ratio = 0
+I0904 17:35:09.633709 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393325, moving_average = 0.0393249, std_dev = 9.25009e-07, std_dev_ratio = 0
+I0904 17:35:09.745147 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393326, moving_average = 0.039325, std_dev = 9.26663e-07, std_dev_ratio = 0
+I0904 17:35:09.856775 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393326, moving_average = 0.039325, std_dev = 9.28279e-07, std_dev_ratio = 0
+I0904 17:35:09.969775 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393327, moving_average = 0.0393251, std_dev = 9.29859e-07, std_dev_ratio = 0
+I0904 17:35:10.084753 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393328, moving_average = 0.0393251, std_dev = 9.31405e-07, std_dev_ratio = 0
+I0904 17:35:10.198587 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393329, moving_average = 0.0393252, std_dev = 9.32958e-07, std_dev_ratio = 0
+I0904 17:35:10.306567 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039333, moving_average = 0.0393252, std_dev = 9.34478e-07, std_dev_ratio = 0
+I0904 17:35:10.418686 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039333, moving_average = 0.0393253, std_dev = 9.35966e-07, std_dev_ratio = 0
+I0904 17:35:10.530997 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393331, moving_average = 0.0393254, std_dev = 9.37422e-07, std_dev_ratio = 0
+I0904 17:35:10.640923 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393331, moving_average = 0.0393254, std_dev = 9.38849e-07, std_dev_ratio = 0
+I0904 17:35:10.753662 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393332, moving_average = 0.0393255, std_dev = 9.40246e-07, std_dev_ratio = 0
+I0904 17:35:10.866894 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393333, moving_average = 0.0393255, std_dev = 9.41615e-07, std_dev_ratio = 0
+I0904 17:35:10.975699 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393333, moving_average = 0.0393256, std_dev = 9.42924e-07, std_dev_ratio = 0
+I0904 17:35:11.087990 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393333, moving_average = 0.0393256, std_dev = 9.44174e-07, std_dev_ratio = 0
+I0904 17:35:11.198181 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393333, moving_average = 0.0393257, std_dev = 9.45392e-07, std_dev_ratio = 0
+I0904 17:35:11.306854 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393334, moving_average = 0.0393258, std_dev = 9.46565e-07, std_dev_ratio = 0
+I0904 17:35:11.417361 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393334, moving_average = 0.0393258, std_dev = 9.47694e-07, std_dev_ratio = 0
+I0904 17:35:11.526069 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393334, moving_average = 0.0393259, std_dev = 9.4878e-07, std_dev_ratio = 0
+I0904 17:35:11.639412 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393334, moving_average = 0.0393259, std_dev = 9.49826e-07, std_dev_ratio = 0
+I0904 17:35:11.752452 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393335, moving_average = 0.039326, std_dev = 9.5083e-07, std_dev_ratio = 0
+I0904 17:35:11.866060 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393335, moving_average = 0.039326, std_dev = 9.51797e-07, std_dev_ratio = 0
+I0904 17:35:11.979465 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393335, moving_average = 0.0393261, std_dev = 9.52719e-07, std_dev_ratio = 0
+I0904 17:35:12.092363 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393335, moving_average = 0.0393261, std_dev = 9.53599e-07, std_dev_ratio = 0
+I0904 17:35:12.203101 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393262, std_dev = 9.54445e-07, std_dev_ratio = 0
+I0904 17:35:12.313392 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393262, std_dev = 9.55251e-07, std_dev_ratio = 0
+I0904 17:35:12.423228 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393263, std_dev = 9.56018e-07, std_dev_ratio = 0
+I0904 17:35:12.534049 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393263, std_dev = 9.56748e-07, std_dev_ratio = 0
+I0904 17:35:12.644686 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393264, std_dev = 9.5744e-07, std_dev_ratio = 0
+I0904 17:35:12.759346 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393264, std_dev = 9.58097e-07, std_dev_ratio = 0
+I0904 17:35:12.869256 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393264, std_dev = 9.5872e-07, std_dev_ratio = 0
+I0904 17:35:12.982084 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393265, std_dev = 9.59305e-07, std_dev_ratio = 0
+I0904 17:35:13.090162 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393265, std_dev = 9.59852e-07, std_dev_ratio = 0
+I0904 17:35:13.200793 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393266, std_dev = 9.60367e-07, std_dev_ratio = 0
+I0904 17:35:13.314121 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393266, std_dev = 9.60846e-07, std_dev_ratio = 0
+I0904 17:35:13.427047 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393267, std_dev = 9.61291e-07, std_dev_ratio = 0
+I0904 17:35:13.539780 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393267, std_dev = 9.61704e-07, std_dev_ratio = 0
+I0904 17:35:13.652029 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393268, std_dev = 9.62084e-07, std_dev_ratio = 0
+I0904 17:35:13.766161 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393268, std_dev = 9.62434e-07, std_dev_ratio = 0
+I0904 17:35:13.878358 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393268, std_dev = 9.62753e-07, std_dev_ratio = 0
+I0904 17:35:13.989331 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393269, std_dev = 9.63043e-07, std_dev_ratio = 0
+I0904 17:35:14.098153 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393269, std_dev = 9.63307e-07, std_dev_ratio = 0
+I0904 17:35:14.206320 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.039327, std_dev = 9.63542e-07, std_dev_ratio = 0
+I0904 17:35:14.320003 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.039327, std_dev = 9.63749e-07, std_dev_ratio = 0
+I0904 17:35:14.433619 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.039327, std_dev = 9.63929e-07, std_dev_ratio = 0
+I0904 17:35:14.548432 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393271, std_dev = 9.64082e-07, std_dev_ratio = 0
+I0904 17:35:14.663002 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393271, std_dev = 9.64209e-07, std_dev_ratio = 0
+I0904 17:35:14.776724 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393272, std_dev = 9.64312e-07, std_dev_ratio = 0
+I0904 17:35:14.889708 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393272, std_dev = 9.6439e-07, std_dev_ratio = 0
+I0904 17:35:15.002833 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393272, std_dev = 9.64439e-07, std_dev_ratio = 0
+I0904 17:35:15.114883 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393273, std_dev = 9.64464e-07, std_dev_ratio = 0
+I0904 17:35:15.227864 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393273, std_dev = 9.64463e-07, std_dev_ratio = 0
+I0904 17:35:15.338479 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393273, std_dev = 9.64438e-07, std_dev_ratio = 0
+I0904 17:35:15.451503 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393274, std_dev = 9.64389e-07, std_dev_ratio = 0
+I0904 17:35:15.560017 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393274, std_dev = 9.64317e-07, std_dev_ratio = 0
+I0904 17:35:15.673621 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393274, std_dev = 9.64223e-07, std_dev_ratio = 0
+I0904 17:35:15.788112 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393275, std_dev = 9.64107e-07, std_dev_ratio = 0
+I0904 17:35:15.898603 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393275, std_dev = 9.6397e-07, std_dev_ratio = 0
+I0904 17:35:16.008965 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393275, std_dev = 9.63812e-07, std_dev_ratio = 0
+I0904 17:35:16.121297 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393276, std_dev = 9.63633e-07, std_dev_ratio = 0
+I0904 17:35:16.234135 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393276, std_dev = 9.63436e-07, std_dev_ratio = 0
+I0904 17:35:16.346987 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393276, std_dev = 9.6322e-07, std_dev_ratio = 0
+I0904 17:35:16.455426 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393277, std_dev = 9.62986e-07, std_dev_ratio = 0
+I0904 17:35:16.564868 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393277, std_dev = 9.62734e-07, std_dev_ratio = 0
+I0904 17:35:16.676815 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393277, std_dev = 9.62465e-07, std_dev_ratio = 0
+I0904 17:35:16.791173 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393337, moving_average = 0.0393278, std_dev = 9.62179e-07, std_dev_ratio = 0
+I0904 17:35:16.907454 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393278, std_dev = 9.61875e-07, std_dev_ratio = 0
+I0904 17:35:17.020781 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393278, std_dev = 9.61553e-07, std_dev_ratio = 0
+I0904 17:35:17.133154 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393279, std_dev = 9.61216e-07, std_dev_ratio = 0
+I0904 17:35:17.245266 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393279, std_dev = 9.60855e-07, std_dev_ratio = 0
+I0904 17:35:17.358018 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393336, moving_average = 0.0393279, std_dev = 9.60471e-07, std_dev_ratio = 0
+I0904 17:35:17.470207 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393335, moving_average = 0.0393279, std_dev = 9.60066e-07, std_dev_ratio = 0
+I0904 17:35:17.583322 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393335, moving_average = 0.039328, std_dev = 9.5964e-07, std_dev_ratio = 0
+I0904 17:35:17.692939 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393335, moving_average = 0.039328, std_dev = 9.59192e-07, std_dev_ratio = 0
+I0904 17:35:17.803944 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393334, moving_average = 0.0393281, std_dev = 9.42741e-07, std_dev_ratio = 0
+I0904 17:35:17.915817 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393334, moving_average = 0.0393282, std_dev = 9.38033e-07, std_dev_ratio = 0
+I0904 17:35:18.025936 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393334, moving_average = 0.0393283, std_dev = 9.33269e-07, std_dev_ratio = 0
+I0904 17:35:18.138013 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393334, moving_average = 0.0393284, std_dev = 9.28483e-07, std_dev_ratio = 0
+I0904 17:35:18.251847 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393333, moving_average = 0.0393285, std_dev = 9.23632e-07, std_dev_ratio = 0
+I0904 17:35:18.364320 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393333, moving_average = 0.0393285, std_dev = 9.19279e-07, std_dev_ratio = 0
+I0904 17:35:18.472333 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393333, moving_average = 0.0393286, std_dev = 9.14301e-07, std_dev_ratio = 0
+I0904 17:35:18.580421 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393333, moving_average = 0.0393287, std_dev = 9.0926e-07, std_dev_ratio = 0
+I0904 17:35:18.690518 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393333, moving_average = 0.0393288, std_dev = 8.92329e-07, std_dev_ratio = 0
+I0904 17:35:18.799993 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393332, moving_average = 0.0393289, std_dev = 8.87098e-07, std_dev_ratio = 0
+I0904 17:35:18.908254 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393332, moving_average = 0.039329, std_dev = 8.8237e-07, std_dev_ratio = 0
+I0904 17:35:19.019676 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393331, moving_average = 0.0393291, std_dev = 8.77573e-07, std_dev_ratio = 0
+I0904 17:35:19.127848 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393331, moving_average = 0.0393291, std_dev = 8.72496e-07, std_dev_ratio = 0
+I0904 17:35:19.239812 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039333, moving_average = 0.0393292, std_dev = 8.67349e-07, std_dev_ratio = 0
+I0904 17:35:19.348717 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039333, moving_average = 0.0393293, std_dev = 8.627e-07, std_dev_ratio = 0
+I0904 17:35:19.456646 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393329, moving_average = 0.0393294, std_dev = 8.57404e-07, std_dev_ratio = 0
+I0904 17:35:19.565201 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393329, moving_average = 0.0393295, std_dev = 8.52046e-07, std_dev_ratio = 0
+I0904 17:35:19.673261 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393328, moving_average = 0.0393295, std_dev = 8.35159e-07, std_dev_ratio = 0
+I0904 17:35:19.786144 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393328, moving_average = 0.0393296, std_dev = 8.29585e-07, std_dev_ratio = 0
+I0904 17:35:19.898061 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393327, moving_average = 0.0393297, std_dev = 8.23949e-07, std_dev_ratio = 0
+I0904 17:35:20.006292 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393327, moving_average = 0.0393298, std_dev = 8.18235e-07, std_dev_ratio = 0
+I0904 17:35:20.115216 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393326, moving_average = 0.0393298, std_dev = 8.12595e-07, std_dev_ratio = 0
+I0904 17:35:20.223906 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393326, moving_average = 0.0393299, std_dev = 8.0745e-07, std_dev_ratio = 0
+I0904 17:35:20.335147 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393326, moving_average = 0.03933, std_dev = 8.01682e-07, std_dev_ratio = 0
+I0904 17:35:20.444460 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393325, moving_average = 0.03933, std_dev = 7.95849e-07, std_dev_ratio = 0
+I0904 17:35:20.554783 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393325, moving_average = 0.0393301, std_dev = 7.89942e-07, std_dev_ratio = 0
+I0904 17:35:20.667976 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393325, moving_average = 0.0393302, std_dev = 7.72668e-07, std_dev_ratio = 0
+I0904 17:35:20.778493 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393324, moving_average = 0.0393302, std_dev = 7.66568e-07, std_dev_ratio = 0
+I0904 17:35:20.890684 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393324, moving_average = 0.0393303, std_dev = 7.6041e-07, std_dev_ratio = 0
+I0904 17:35:20.999531 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393323, moving_average = 0.0393304, std_dev = 7.54188e-07, std_dev_ratio = 0
+I0904 17:35:21.109057 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393323, moving_average = 0.0393304, std_dev = 7.48174e-07, std_dev_ratio = 0
+I0904 17:35:21.216977 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393323, moving_average = 0.0393305, std_dev = 7.42777e-07, std_dev_ratio = 0
+I0904 17:35:21.325191 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393322, moving_average = 0.0393306, std_dev = 7.36456e-07, std_dev_ratio = 0
+I0904 17:35:21.433902 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393322, moving_average = 0.0393306, std_dev = 7.3008e-07, std_dev_ratio = 0
+I0904 17:35:21.543633 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393322, moving_average = 0.0393307, std_dev = 7.23632e-07, std_dev_ratio = 0
+I0904 17:35:21.654597 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393321, moving_average = 0.0393307, std_dev = 7.05626e-07, std_dev_ratio = 0
+I0904 17:35:21.763470 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393321, moving_average = 0.0393308, std_dev = 6.99001e-07, std_dev_ratio = 0
+I0904 17:35:21.871337 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393321, moving_average = 0.0393309, std_dev = 6.90502e-07, std_dev_ratio = 0
+I0904 17:35:21.980208 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039332, moving_average = 0.0393309, std_dev = 6.81931e-07, std_dev_ratio = 0
+I0904 17:35:22.090842 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039332, moving_average = 0.039331, std_dev = 6.73279e-07, std_dev_ratio = 0
+I0904 17:35:22.203447 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.039332, moving_average = 0.039331, std_dev = 6.66244e-07, std_dev_ratio = 0
+I0904 17:35:22.313663 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393319, moving_average = 0.0393311, std_dev = 6.58285e-07, std_dev_ratio = 0
+I0904 17:35:22.423494 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393319, moving_average = 0.0393311, std_dev = 6.50261e-07, std_dev_ratio = 0
+I0904 17:35:22.535831 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393319, moving_average = 0.0393312, std_dev = 6.42181e-07, std_dev_ratio = 0
+I0904 17:35:22.644901 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393319, moving_average = 0.0393312, std_dev = 6.21559e-07, std_dev_ratio = 0
+I0904 17:35:22.756251 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393318, moving_average = 0.0393313, std_dev = 6.13278e-07, std_dev_ratio = 0
+I0904 17:35:22.868970 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393318, moving_average = 0.0393313, std_dev = 6.04932e-07, std_dev_ratio = 0
+I0904 17:35:22.978474 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393318, moving_average = 0.0393314, std_dev = 5.96521e-07, std_dev_ratio = 0
+I0904 17:35:23.089465 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393318, moving_average = 0.0393314, std_dev = 5.88037e-07, std_dev_ratio = 0
+I0904 17:35:23.198305 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393317, moving_average = 0.0393314, std_dev = 5.80344e-07, std_dev_ratio = 0
+I0904 17:35:23.308861 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393317, moving_average = 0.0393315, std_dev = 5.71735e-07, std_dev_ratio = 0
+I0904 17:35:23.417970 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393317, moving_average = 0.0393315, std_dev = 5.63061e-07, std_dev_ratio = 0
+I0904 17:35:23.531455 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393317, moving_average = 0.0393316, std_dev = 5.54322e-07, std_dev_ratio = 0
+I0904 17:35:23.643900 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393317, moving_average = 0.0393316, std_dev = 5.3305e-07, std_dev_ratio = 0
+I0904 17:35:23.755290 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393317, moving_average = 0.0393316, std_dev = 5.24119e-07, std_dev_ratio = 0
+I0904 17:35:23.868681 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393316, moving_average = 0.0393317, std_dev = 5.15123e-07, std_dev_ratio = 0
+I0904 17:35:23.979493 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393316, moving_average = 0.0393317, std_dev = 5.06062e-07, std_dev_ratio = 0
+I0904 17:35:24.088191 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393316, moving_average = 0.0393318, std_dev = 4.96927e-07, std_dev_ratio = 0
+I0904 17:35:24.201148 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393315, moving_average = 0.0393318, std_dev = 4.88529e-07, std_dev_ratio = 0
+I0904 17:35:24.314079 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393315, moving_average = 0.0393318, std_dev = 4.79213e-07, std_dev_ratio = 0
+I0904 17:35:24.422147 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393315, moving_average = 0.0393319, std_dev = 4.6983e-07, std_dev_ratio = 0
+I0904 17:35:24.535132 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393315, moving_average = 0.0393319, std_dev = 4.60382e-07, std_dev_ratio = 0
+I0904 17:35:24.648860 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393315, moving_average = 0.0393319, std_dev = 4.39973e-07, std_dev_ratio = 0
+I0904 17:35:24.759879 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393314, moving_average = 0.0393319, std_dev = 4.31146e-07, std_dev_ratio = 0
+I0904 17:35:24.870038 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393314, moving_average = 0.039332, std_dev = 4.22266e-07, std_dev_ratio = 0
+I0904 17:35:24.982983 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393314, moving_average = 0.039332, std_dev = 4.13314e-07, std_dev_ratio = 0
+I0904 17:35:25.093713 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393313, moving_average = 0.039332, std_dev = 4.04302e-07, std_dev_ratio = 0
+I0904 17:35:25.204741 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393313, moving_average = 0.039332, std_dev = 3.96076e-07, std_dev_ratio = 0
+I0904 17:35:25.313643 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393313, moving_average = 0.0393321, std_dev = 3.86951e-07, std_dev_ratio = 0
+I0904 17:35:25.425727 177418240 group.cc:201] Generated fair value for [ethbtc]: fair_value = 0.0393313, moving_average = 0.0393321, std_dev = 3.77761e-07, std_dev_ratio = 0

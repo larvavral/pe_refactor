@@ -1,0 +1,12 @@
+Log file created at: 2018/09/03 16:47:42
+Running on machine: Hoangs-MBP.miyatsu.vn
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0903 16:47:42.702625 2889032576 main.cc:40] Read all settings from configuration file.
+I0903 16:47:42.705067 2889032576 main.cc:45] Redis server information: 
+ - Host: 172.16.20.167
+ - Port: 6379
+I0903 16:47:42.705175 2889032576 main.cc:62] Group 1:
+I0903 16:47:42.709893 2889032576 redis_controller.cc:16] Create new redis client successfully.
+I0903 16:47:42.712113 2889032576 redis_controller.cc:28] Authenticate successfully.
+I0903 16:47:42.712199 2889032576 redis_controller.cc:86] Create async connection to redis server successfully.
+E0903 16:49:20.333593 2889032576 group.cc:146] Error while reading PE config from redis. std::exception

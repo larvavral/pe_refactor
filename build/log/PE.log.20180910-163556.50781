@@ -1,0 +1,4 @@
+Log file created at: 2018/09/10 16:35:56
+Running on machine: Hoangs-MBP.miyatsu.vn
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0910 16:35:56.433154 2889032576 main.cc:28] Configuration file is not existed: pe.ini.1

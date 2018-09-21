@@ -1,0 +1,5 @@
+Log file created at: 2018/09/10 16:12:19
+Running on machine: Hoangs-MBP.miyatsu.vn
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0910 16:12:19.761358 2889032576 main.cc:23] Read all settings from configuration file.
+I0910 16:12:19.762502 2889032576 main.cc:25] hahah: pe.ini.1
